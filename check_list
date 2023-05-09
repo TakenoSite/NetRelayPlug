@@ -1,0 +1,16 @@
+
+
+
+- buf - 
+
+recv		:: 2048 // 最大受信サイズ
+msg paser	:: 1024 // 最大ブロックサイズ
+
+
+
+- tests - 
+e.c : cmd_showconfig
+	  cmd_setconfig
+	  cmd_nodedelete
+	  cmd_sessionclose
+	  
